@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+padding: 40px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 870px;
+  display: flex;
+}
+
+.speed {
+  cursor: pointer;
+  border-radius: 50px;
+  background: #efefef;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 5px;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #5b31f1;
+}
+
+.speed-bar {
+  width: 100%;
+  background: #7751ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: white;
+  height: 16.3%;
+}
